@@ -1,0 +1,4 @@
+Employees working remotely must use VPN connections at all times.
+Two-factor authentication is required for all internal systems.
+Home office equipment should comply with IT security standards.
+Relevant SOP: HR-SOP-007
