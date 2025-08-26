@@ -47,6 +47,9 @@ This project demonstrates a complete workflow from **document storage** → **em
 
 **`onboarding_policy.txt`**
 **`data_retention_policy.txt`**
+**`remote_work_guidelines.txt`**
+
+
 
 
 ### Fine-Tuning Dataset (S3 bucket: `enterprise-finetune-reports`)
