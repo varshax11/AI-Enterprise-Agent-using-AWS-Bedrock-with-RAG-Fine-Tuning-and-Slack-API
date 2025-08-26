@@ -1,0 +1,6 @@
+{
+  "id": "onboarding_policy_001",
+  "embedding": [0.012, -0.334, 0.892, ..., 0.045], 
+  "source": "s3://enterprise-docs-rag/onboarding_policy.txt",
+  "chunk_text": "ISO27001 requires that all new employees undergo security awareness training within the first week."
+}
