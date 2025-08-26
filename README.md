@@ -10,10 +10,10 @@ RAG-Powered Q&A + Fine-Tuned Report Generator in **AWS Console** using **Amazon 
 
 The Enterprise Knowledge Assistant allows employees to:
 
-1. **Ask Questions about Internal Policies & Documents** – powered by **RAG (Retrieval-Augmented Generation)**.  
-2. **Auto-Generate Structured Reports** – using **fine-tuned LLMs** for compliance summaries, weekly updates, and risk assessments.
+1. **Ask Questions about Internal Policies & Documents** – powered by **RAG (Retrieval-Augmented Generation)**
+2. **Auto-Generate Structured Reports** – using **fine-tuned LLMs** for compliance summaries, weekly updates, and risk assessments
 
-This project demonstrates a complete workflow from **document storage** → **embedding** → **vector search** → **query response** → **structured report generation**.
+This project demonstrates a complete workflow from **document storage** → **embedding** → **vector search** → **query response** → **structured report generation**
 
 ---
 
