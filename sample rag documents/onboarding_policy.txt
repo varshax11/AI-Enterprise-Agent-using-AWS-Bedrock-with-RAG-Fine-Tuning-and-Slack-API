@@ -1,0 +1,4 @@
+ISO27001 requires that all new employees undergo security awareness training within the first week.
+Employee background verification is mandatory.
+New hires must sign the confidentiality agreement and review data protection policies.
+Relevant SOP: HR-SOP-001
