@@ -1,2 +1,0 @@
-{"input": "Generate weekly compliance summary for Dept. A", 
- "output": "Weekly Compliance Summary: \n\nIntroduction:\nDept. A remained compliant with ISO27001 standards. \n\nKey Risks:\n- Unauthorized access attempts detected. \n- Delayed security training for new hires.\n\nMitigation:\n- Implement additional MFA logging. \n- Schedule catch-up training sessions.\n\nConclusion:\nDept. A is improving, but must address training delays."}
