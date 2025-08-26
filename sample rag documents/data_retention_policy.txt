@@ -1,0 +1,4 @@
+Customer data retention is governed by GDPR and internal policies.
+All customer records must be archived for a minimum of 7 years.
+Sensitive data must be anonymized before storage.
+Relevant SOPs: IT-SOP-012, COMPLIANCE-202
