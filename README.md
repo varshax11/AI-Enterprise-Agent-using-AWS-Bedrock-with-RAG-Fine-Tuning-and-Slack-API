@@ -1,13 +1,8 @@
 # Enterprise Knowledge Assistant
 
+RAG-Powered Q&A + Fine-Tuned Report Generator in **AWS Console** using **Amazon S3, Amazon Bedrock, OpenSearch Serverless, Lambda, API Gateway, Cognito**
 
 ![IMG_0030](https://github.com/user-attachments/assets/568b4309-29ed-43a6-b920-06b42b5ed07a)
-
-
-
-**Project:** RAG-Powered Q&A + Fine-Tuned Report Generator  
-**Platform:** AWS Console  
-**Services:** Amazon S3, Amazon Bedrock, OpenSearch Serverless, Lambda, API Gateway, Cognito  
 
 ---
 
