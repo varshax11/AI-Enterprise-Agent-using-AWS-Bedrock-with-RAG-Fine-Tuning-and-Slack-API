@@ -1,56 +1,40 @@
 # Enterprise Knowledge Assistant
 
-RAG-Powered Q&A + Fine-Tuned Report Generator in **AWS Console** using **Amazon S3, Amazon Bedrock, OpenSearch Serverless, Lambda, API Gateway, Cognito**
-
-![IMG_0030](https://github.com/user-attachments/assets/568b4309-29ed-43a6-b920-06b42b5ed07a)
-
 ---
 
 ## Overview
+The Enterprise Knowledge Assistant is an AI-powered system that helps employees:
+1. Ask questions about internal policies, SOPs, and compliance documents (RAG-powered).
+2. Generate structured reports, summaries, and risk assessments using a fine-tuned LLM.
+3. Post outputs or notifications to Slack channels.
 
-The Enterprise Knowledge Assistant allows employees to:
 
-1. **Ask Questions about Internal Policies & Documents** – powered by **RAG (Retrieval-Augmented Generation)**
-2. **Auto-Generate Structured Reports** – using **fine-tuned LLMs** for compliance summaries, weekly updates, and risk assessments
+This project integrates AWS Bedrock, Amazon S3, OpenSearch Serverless, and AWS Lambda.
 
-This project demonstrates a complete workflow from **document storage** → **embedding** → **vector search** → **query response** → **structured report generation**
+---
+
+## Architecture / Flow
+1. Document Storage – Internal documents and reports are stored in Amazon S3.
+2. Knowledge Base – AWS Bedrock chunks, embeds, and stores documents in OpenSearch Serverless for retrieval.
+3. Fine-Tuned Model – Historical reports are used to fine-tune a Bedrock LLM (Nova Pro).
+4. AWS Lambda Functions – Handle retrieval, report generation, and Slack notifications.
+5. Bedrock Agent – Orchestrates user requests and invokes the appropriate Lambda action group.
 
 ---
 
-## How It Works
-
-### RAG Q&A Workflow
-
-1. Upload internal documents (policies, SOPs, compliance manuals) to **Amazon S3**.  
-2. Create a **Knowledge Base in AWS Bedrock**, linking the S3 bucket.  
-3. Select an **embedding model** for the knowledge base.  
-4. Bedrock automatically:
-   - Chunks the documents.
-   - Generates embeddings for each chunk.
-   - Stores embeddings in **OpenSearch Serverless**.  
-5. User queries (e.g., “What are onboarding requirements under ISO27001?”):
-   - Relevant chunks are retrieved.
-   - LLM generates answers with citations.
-
-### Fine-Tuned Report Generation
-
-1. Upload historical reports (weekly summaries, risk assessments, audits) as **JSONL files in S3**.  
-2. Fine-tune an LLM in **AWS Bedrock** on these datasets.  
-3. Users request a report (e.g., “Generate weekly compliance summary for Dept. A”).  
-4. The fine-tuned LLM generates a **formatted, structured report** in the company’s style.
-
----
+## Prerequisites
+- AWS account with Bedrock access.
+- S3 buckets:
+- `enterprise-docs-rag` → internal documents.
+- `enterprise-finetune-reports` → fine-tuning datasets.
+- IAM roles with required permissions for Bedrock, S3, and CloudWatch.
+- Slack workspace & bot token for Slack integration
 
 ## Sample Files
 
 ### RAG Documents (S3 bucket: `enterprise-docs-rag`)
 
 **`onboarding_policy.txt`**
-**`data_retention_policy.txt`**
-**`remote_work_guidelines.txt`**
-
-
-
 
 ### Fine-Tuning Dataset (S3 bucket: `enterprise-finetune-reports`)
 
@@ -60,10 +44,10 @@ This project demonstrates a complete workflow from **document storage** → **em
 
 ## Features
 
+AI Agent that decides which tool to use when user gives a prompt
 RAG-powered Enterprise Q&A with citations
 Fine-tuned structured report generation
-Separation of concerns: RAG vs fine-tuning
-Enterprise-ready: saves time, ensures consistent reporting
+Slack notification creation by the AI agent
 
 ---
 
