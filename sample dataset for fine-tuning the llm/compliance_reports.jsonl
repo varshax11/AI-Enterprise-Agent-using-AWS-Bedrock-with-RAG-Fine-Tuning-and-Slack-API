@@ -1,0 +1,10 @@
+{"input": "Generate weekly compliance summary for Dept. A", "output": "Compliance Summary for Dept. A\n- All employees completed training\n- No policy violations\n- Audit scheduled for next month"}
+{"input": "Generate risk assessment for Dept. B", "output": "Risk Assessment - Dept. B\n- High risk: Data retention policy violations\n- Medium risk: Incomplete onboarding documentation"}
+{"input": "Summarize ISO27001 onboarding policy", "output": "Onboarding requires security awareness training, signed NDA, and role-based access approvals."}
+{"input": "Generate weekly compliance summary for Dept. C", "output": "Compliance Summary for Dept. C\n- 90% employees completed training\n- 2 policy violations under review\n- Remediation actions initiated"}
+{"input": "Generate risk assessment for IT Department", "output": "Risk Assessment - IT Department\n- High risk: Unpatched critical vulnerabilities\n- Medium risk: Weak password compliance\n- Low risk: Missing encryption in 5% of devices"}
+{"input": "Summarize remote work policy", "output": "Employees must use company VPN, follow secure password policies, and complete mandatory security awareness training."}
+{"input": "Generate audit report summary for Q1 2025", "output": "Audit Report Summary - Q1 2025\n- 100% adherence to data retention policies\n- Minor gaps in access control logging\n- No critical non-compliances"}
+{"input": "Generate weekly compliance summary for Finance Department", "output": "Compliance Summary - Finance Department\n- All financial reports archived per retention schedule\n- No data breaches detected\n- Regular audits completed successfully"}
+{"input": "Generate risk assessment for HR Department", "output": "Risk Assessment - HR Department\n- Medium risk: Inconsistent data classification\n- Low risk: Delayed access revocations\n- High risk: Missing incident response training for new hires"}
+{"input": "Summarize data retention policy", "output": "Data must be retained for 7 years, with mandatory encryption and access restrictions. Data older than 7 years must be securely destroyed."}
