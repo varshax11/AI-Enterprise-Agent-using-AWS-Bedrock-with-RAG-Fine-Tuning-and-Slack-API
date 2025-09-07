@@ -1,4 +1,21 @@
-ISO27001 requires that all new employees undergo security awareness training within the first week.
-Employee background verification is mandatory.
-New hires must sign the confidentiality agreement and review data protection policies.
-Relevant SOP: HR-SOP-001
+# ISO27001 Onboarding Policy
+
+1. **Purpose**  
+   The purpose of this document is to define the onboarding requirements for new employees to ensure compliance with ISO27001 standards.
+
+2. **Scope**  
+   Applies to all new hires, contractors, and temporary staff within the organization.
+
+3. **Procedure**  
+   a. All new employees must complete security awareness training within the first week.  
+   b. Each employee must sign a Non-Disclosure Agreement (NDA) before accessing company systems.  
+   c. Role-based access approvals must be completed by the department manager and IT security team.  
+   d. HR will verify completion of all onboarding steps and notify IT for system access provisioning.
+
+4. **Documentation**  
+   a. Training completion certificates  
+   b. Signed NDA forms  
+   c. Role-based access approval records
+
+5. **Review**  
+   This policy must be reviewed annually by the Compliance Officer to ensure alignment with ISO27001 standards.
