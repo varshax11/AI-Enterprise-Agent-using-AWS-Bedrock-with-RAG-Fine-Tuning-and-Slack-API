@@ -1,4 +1,20 @@
-Employees working remotely must use VPN connections at all times.
-Two-factor authentication is required for all internal systems.
-Home office equipment should comply with IT security standards.
-Relevant SOP: HR-SOP-007
+# Remote Work Guidelines
+
+1. **Purpose**  
+   To define expectations and procedures for employees working remotely.
+
+2. **Scope**  
+   Applies to all employees approved for remote work arrangements.
+
+3. **Guidelines**  
+   a. Employees must use company-provided devices with updated security patches.  
+   b. VPN connection is required when accessing company systems.  
+   c. Confidential information must not be shared on personal devices or public networks.  
+   d. Daily check-ins with managers are required via Teams or Slack.
+
+4. **Communication**  
+   a. Use corporate email for all business communications.  
+   b. Report any IT issues immediately to the IT helpdesk.  
+
+5. **Compliance**  
+   Employees must adhere to all company policies, including ISO27001 security requirements and NDA agreements
